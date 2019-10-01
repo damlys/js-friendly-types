@@ -1,0 +1,20 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": [
+      "es2018"
+    ],
+    "outDir": "./dist",
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2018"
+  }
+}

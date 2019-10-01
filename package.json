@@ -1,0 +1,50 @@
+{
+  "name": "friendly-types",
+  "version": "1.0.0",
+  "description": "Converters for primitive data types.",
+  "keywords": [
+    "primitive-types",
+    "types",
+    "typing",
+    "casting",
+    "coercing",
+    "coercion",
+    "convert",
+    "converter",
+    "converting",
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "author": "Damian Łysiak <damian.lysiak@gmail.com>",
+  "homepage": "https://github.com/damlys/js-friendly-types",
+  "repository": "https://github.com/damlys/js-friendly-types",
+  "bugs": "https://github.com/damlys/js-friendly-types/issues",
+  "license": "UNLICENSED",
+  "main": "dist/converters.js",
+  "types": "dist/converters.d.ts",
+  "files": [
+    "dist"
+  ],
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.8",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project .",
+    "test": "jest"
+  }
+}
